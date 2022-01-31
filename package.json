@@ -1,0 +1,15 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "Redux todo app for practicing on redux",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-scripts start"
+  },
+  "author": "Neck",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
