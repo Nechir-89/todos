@@ -7,10 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
     <title>Redux Todo App</title>
+    <style>
+        main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        main div {
+            margin: 1rem;
+            padding: 1rem;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            ;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="root"></div>
+    <div class="root">
+        <header>
+            <div>
+                <input type="text" placeholder="Type todo here..." id="createTodoInput" />
+                <button id="createTodoBtn">Create Todo</button>
+            </div>
+        </header>
+        <main>
+            <!-- dynamically will be created -->
+        </main>
+    </div>
     <script type="module" src="./src/app.js"></script>
 </body>
 
